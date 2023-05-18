@@ -17,10 +17,11 @@
           </el-menu-item>
           <el-submenu index="/">
             <template slot="title">
-              <i class="el-icon-question"/>
-              <span>关于节目</span>
+              <i class="el-icon-user-solid"/>
+              <span>会员管理</span>
             </template>
-            <el-menu-item index="about">选项1</el-menu-item>
+            <el-menu-item index="user">会员列表</el-menu-item>
+            <el-menu-item index="addUser">添加会员</el-menu-item>
           </el-submenu>
         </el-menu>
       </div>
